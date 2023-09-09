@@ -31,10 +31,10 @@ public class CustomerController {
 
 */
 
-    @PostMapping(value = "customerDto")
-    public void SaveCustomerCkek(CustomerDto customerDto){
+    @PostMapping(path = "/save",consumes =MediaType.APPLICATION_JSON_VALUE)
+    public void SaveCustomerCkek(@RequestBody CustomerDto customerDto){
         System.out.println("hIT CUSTOMER SAVE COMTROLLER");
-          customerServiceimpl.CustomerSave(customerDto);
+          /*customerServiceimpl.CustomerSave(customerDto);*/
     }
 
     @PutMapping
@@ -48,3 +48,5 @@ public class CustomerController {
     }
 
 }
+
+

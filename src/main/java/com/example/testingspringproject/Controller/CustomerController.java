@@ -1,5 +1,6 @@
 package com.example.testingspringproject.Controller;
 
+import com.example.testingspringproject.Service.CustomerService;
 import com.example.testingspringproject.Service.impl.CustomerServiceimpl;
 import com.example.testingspringproject.dto.CustomerDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 public class CustomerController {
 
     @Autowired
-    CustomerServiceimpl customerServiceimpl;
+    CustomerService customerServiceimpl;
 
     @GetMapping
     public String getCustomerCheck(CustomerDto customerDto){

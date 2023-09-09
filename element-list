@@ -1,0 +1,10 @@
+com.example.testingspringproject
+com.example.testingspringproject.Bean
+com.example.testingspringproject.config
+com.example.testingspringproject.Controller
+com.example.testingspringproject.dto
+com.example.testingspringproject.entity
+com.example.testingspringproject.JpaConfig
+com.example.testingspringproject.Repo
+com.example.testingspringproject.Service
+com.example.testingspringproject.Service.impl
